@@ -1,0 +1,134 @@
+﻿.thumbnail-custom{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 10px 3px;
+}
+
+.thumbnail img{
+   width: 300px;
+   height: 190px;
+   margin: auto;
+}
+.thumbnail-custom:hover{
+
+}
+
+.thumbnail-mask {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*line-height: 1.428571429;*/
+    height: auto;
+    max-width: 100%;
+    padding: 4px;
+    background-color: black;
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.thumbnail-custom:hover .thumbnail-mask{
+    opacity: 0.6;
+    transition: opacity 500ms ease-in-out;
+}
+
+.thumbnail-mask-ico{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    opacity: 0;
+    color: white;
+    transition: opacity 500ms ease-in-out;
+}
+
+.thumbnail-custom:hover .thumbnail-mask-ico{
+    opacity: 1;
+    transition: opacity 500ms ease-in-out;
+}
+
+#gallery-preview{
+    display: none;
+    background-color: #232323;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1200;
+}
+
+.gallery-preview-close{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px 0 5px;
+    color: #F7F7F7;
+    cursor: pointer;
+}
+.gallery-preview-header{
+    height: 35px;
+    background-color: #212121;
+}
+.carousel-container{
+    height: calc(100% - 60px);
+}
+
+.gallery-preview-footer{
+    height: 30px;
+}
+
+.carousel{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    height: 100%; /*slider height*/
+    text-align: center;     
+}
+.carousel-inner > .item > img{
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
+    
+    height: 100%;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+.carousel-caption{
+    bottom: 0;
+    padding-bottom: 0;
+}
+/*.carousel .item img {
+    width: 100%; img width
+}*/
+
+
+.upload-image{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right: 0;
+    width: 500px;
+    height:500px;
+    border:black solid 1px;
+    margin: auto;
+}

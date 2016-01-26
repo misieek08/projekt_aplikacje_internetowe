@@ -1,0 +1,61 @@
+﻿@model IEnumerable<CodeMark.Models.Recommendation>
+@using Microsoft.AspNet.Identity
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var i = 0;
+}
+
+@if (User.Identity.IsAuthenticated)
+{
+    <h3>
+        @Html.ActionLink("Dodaj Referencje", "Create", null, new { @class = "btn btn-primary" })
+    </h3>
+}
+<table class="table">
+
+    @foreach (var item in Model)
+    {
+        i++;
+        <tr>
+            <td>
+                @i . @item.Name
+            </td>
+            <td>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a href="#" class="recommendation-delete" data-reccomendationid="@item.Id">
+                        <i class="fa fa-times fa-2x" data-toggle="tooltip" title="Usuń"></i>
+                    </a>
+                }
+                <a href="#" class="recommendation-preview-btn" data-reccomendationid="@item.Id" data-name="@item.Name">
+                    <i class="fa fa-search fa-2x" data-toggle="tooltip" title="Podgląd"></i>
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>
+<script>
+    var recommendationPreview = '@Url.Action("RecommendationPreview")';
+    var deleteRecommendation = '@Url.Action("Delete")';
+</script>
+<div class="modal fade recommendation" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body">
+                <div class="img-container">
+                    <img class="recommendation-img" src="http://www.w3.org/html/logo/downloads/HTML5_Logo_256.png" alt="Recommendation" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/Scripts/recommendation.js"></script>

@@ -1,0 +1,96 @@
+﻿@using CodeMark.Models;
+@using Microsoft.AspNet.Identity
+@model IEnumerable<Image>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int i = 0;
+}
+<div class="row" id="gallery-thumbnail">
+
+    <div class="col-lg-12">
+        <h1 class="page-header">Galeria</h1>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#uploadImage">Dodaj zdjęcie</button>
+        }
+    </div>
+    @foreach (Image image in Model)
+    {
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail thumbnail-custom" data-id="@image.Id">
+                <img class="img-responsive gallery-img" src="@Url.Action("GetImageContent", new { imageId= image.Id})" alt="">
+                <div class="thumbnail-mask"></div>
+                <div class="fa fa-search-plus fa-2x thumbnail-mask-ico"></div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="modal fade" id="uploadImage" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @using (Html.BeginForm("UploadImage",
+                                    "Home",
+                                    FormMethod.Post,
+                                    new { enctype = "multipart/form-data" }
+                                    ))
+            {
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Dodaj zdjęcie</h4>
+                </div>
+                <div class="modal-body">
+                    <input type="file" name="file" id="file" class="btn-default" />
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+                    <button type="submit" class="btn btn-primary upload-image-btn">Upload</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div id="gallery-preview">
+    <div class="gallery-preview-header">
+        <div class="fa fa-2x fa-close gallery-preview-close"></div>
+    </div>
+    <div class="carousel-container">
+        <div id="carousel-example-generic" class="carousel slide " data-ride="carousel">
+            <!-- Indicators -->
+            @*<ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>*@
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                @foreach (Image img in Model)
+                {
+                    <div data-imageId="@img.Id" class="item @(i == 0 ?  "active" : "")">
+                        <img src="@Url.Action("GetImageContent", new { imageId = img.Id })" alt="image">
+                        <div class="carousel-caption">
+                            <p>@img.FileName</p>
+                        </div>
+                    </div>
+
+                    i += 1;
+                }
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left fa-2x" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right fa-2x" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+        <div class="gallery-preview-footer">
+        </div>
+        <link href="~/Content/gallery.css" rel="stylesheet" />
+        <script src="~/Scripts/gallery/gallery.js"></script>
+

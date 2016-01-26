@@ -1,0 +1,130 @@
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\csc.exe
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\vbc.exe
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\CodeMark.dll.config
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\CodeMark.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\CodeMark.pdb
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Antlr3.Runtime.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Autofac.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Autofac.Integration.Mvc.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\EntityFramework.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\EntityFramework.SqlServer.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Newtonsoft.Json.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Helpers.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Mvc.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Optimization.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Razor.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.WebPages.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.WebPages.Razor.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\WebGrease.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Autofac.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Autofac.Integration.Mvc.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\EntityFramework.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\EntityFramework.SqlServer.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Helpers.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Mvc.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Optimization.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.Razor.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.WebPages.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\System.Web.WebPages.Razor.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Antlr3.Runtime.pdb
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Newtonsoft.Json.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\obj\Debug\CodeMark.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\obj\Debug\CodeMark.pdb
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\obj\Debug\CodeMark.csprojResolveAssemblyReference.cache
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Security.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Owin.dll
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Security.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Lukasz\Documents\Visual Studio 2015\Projects\CodeMark\CodeMark\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\csc.exe
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\vbc.exe
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\VBCSCompiler.exe
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\CodeMark.dll.config
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\CodeMark.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\CodeMark.pdb
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Antlr3.Runtime.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Autofac.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Autofac.Integration.Mvc.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\EntityFramework.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\EntityFramework.SqlServer.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Security.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Newtonsoft.Json.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Owin.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Helpers.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Mvc.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Optimization.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Razor.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.WebPages.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.WebPages.Razor.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\WebGrease.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Autofac.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Autofac.Integration.Mvc.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\EntityFramework.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\EntityFramework.SqlServer.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Security.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Helpers.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Mvc.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Optimization.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.Razor.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.WebPages.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\System.Web.WebPages.Razor.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Antlr3.Runtime.pdb
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\bin\Newtonsoft.Json.xml
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\obj\Debug\CodeMark.csprojResolveAssemblyReference.cache
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\obj\Debug\CodeMark.dll
+C:\Users\Piotrek\Desktop\CodeMark\CodeMark\obj\Debug\CodeMark.pdb

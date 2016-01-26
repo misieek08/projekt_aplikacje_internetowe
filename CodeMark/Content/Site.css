@@ -1,0 +1,237 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.recommendation-preview-btn {
+    color: #428bca;
+}
+
+.recommendation-preview {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    right: 30px;
+    bottom: 10px;
+    display: none;
+-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.75);
+}
+
+.recomm-preview-header {
+    height: 30px;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.recomm-preview-header-close {
+    color: white;
+    float: right;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.recomm-preview-content {
+    text-align: center;
+    background-color: white;
+    height: calc(100% - 30px);
+}
+
+    .recomm-preview-content img {
+        margin-top: 5px;
+    }
+
+.recommendation .modal-dialog {
+  width: 90%;
+  height: 100%;
+  padding: 30px;
+}
+
+.recommendation .modal-content {
+  height: 100%;
+}
+
+.recommendation .modal-header{
+        top: 0;
+        width: 100%;
+        position: absolute;
+}
+
+.recommendation .modal-body {
+    top:50px;
+        bottom: 50px;
+        width: 100%;
+        position: absolute;
+}
+.recommendation .modal-footer {
+        bottom: 0;
+        width: 100%;
+        position: absolute;
+}
+.modal.recommendation .img-container{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    overflow: auto;
+}
+
+.modal.recommendation img{
+    max-height: 100%;
+    max-width: 100%;
+    display: inline-block;
+    
+    height: 100%;
+}
+
+.main-menu {
+    color: #ffffff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.navbar-default {
+  background-color: #2C579A;
+  border-color: #2C579A;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  text-shadow: 1px 0 1px black;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: white;
+  text-shadow: 1px 0 1px black;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+  color: white;
+  text-shadow: 1px 0 1px black;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #F3F3F3;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #555555;
+  font-weight: bold;
+  background-color: #0000de;
+}
+
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #dddddd;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #dddddd;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #cccccc;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #0000de;
+}
+
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+  border-top-color: #333333;
+  border-bottom-color: #333333;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #555555;
+  background-color: #0000de;
+}
+
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+
+.navbar-default .navbar-nav > .dropdown > a .caret {
+  border-top-color: #777777;
+  border-bottom-color: #777777;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777777;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333333;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555555;
+    background-color: #0000de;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #cccccc;
+    background-color: transparent;
+  }
+}
+
+.navbar-default .navbar-link {
+  color: #777777;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #333333;
+}
